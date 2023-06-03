@@ -32,7 +32,7 @@ struct ContentView: View {
                     StatsView()
                     Spacer()
                     
-                    .navigationBarTitle(Text("Home"), displayMode: .inline)
+                    .navigationBarTitle(Text("Posts"), displayMode: .inline)
                         .toolbar {
                                 ToolbarItem(placement: .navigationBarLeading) {
                                     Button {

@@ -17,6 +17,7 @@
 		4B6676A22A2A63560013DF28 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6676A12A2A63560013DF28 /* UIColor + ext.swift */; };
 		4B6676A52A2A86830013DF28 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6676A42A2A86830013DF28 /* Posts.swift */; };
 		4B6676A72A2A89640013DF28 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6676A62A2A89640013DF28 /* Users.swift */; };
+		4B6676A92A2B31010013DF28 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6676A82A2B31010013DF28 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4B6676A12A2A63560013DF28 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		4B6676A42A2A86830013DF28 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		4B6676A62A2A89640013DF28 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		4B6676A82A2B31010013DF28 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				4B6676912A2A228E0013DF28 /* Assets.xcassets */,
 				4B6676932A2A228E0013DF28 /* Preview Content */,
 				4B6676A12A2A63560013DF28 /* UIColor + ext.swift */,
+				4B6676A82A2B31010013DF28 /* MainView.swift */,
 			);
 			path = HomeTask;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6676A72A2A89640013DF28 /* Users.swift in Sources */,
+				4B6676A92A2B31010013DF28 /* MainView.swift in Sources */,
 				4B66769E2A2A280A0013DF28 /* StatsView.swift in Sources */,
 				4B6676A52A2A86830013DF28 /* Posts.swift in Sources */,
 				4B66769C2A2A23830013DF28 /* HomeView.swift in Sources */,

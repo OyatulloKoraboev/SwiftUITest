@@ -7,8 +7,8 @@
 
 import SwiftUI
 let posts = [Posts(image: "post", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"),
-//             Posts(image: "post", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"),
-//             Posts(image: "post", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"),
+             Posts(image: "post", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"),
+             Posts(image: "post", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"),
              ]
 
 
@@ -27,26 +27,37 @@ struct StatsView: View {
                         Color(hex: "#247B96")
                         VStack(spacing: 10){
                             Image(post.image)
-                            
                             HStack(alignment: .center,spacing: 30){
-                                Image(systemName: "heart")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 25)
-                                    .foregroundColor(.white)
-                                    .fontWeight(.light)
-                                Image(systemName: "paperplane")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 25)
-                                    .foregroundColor(.white)
-                                    .fontWeight(.light)
-                                Image(systemName: "square.and.arrow.up")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 20)
-                                    .foregroundColor(.white)
-                                    .fontWeight(.light)
+                                Button {
+                                    print("heartButtonPressed")
+                                } label: {
+                                    Image(systemName: "heart")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 25)
+                                        .foregroundColor(.white)
+                                        .fontWeight(.light)
+                                }
+                                Button {
+                                    print("sendButtonPressed")
+                                } label: {
+                                    Image(systemName: "paperplane")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 25)
+                                        .foregroundColor(.white)
+                                        .fontWeight(.light)
+                                }
+                                Button {
+                                    print("ShareButtonPressed")
+                                } label: {
+                                    Image(systemName: "square.and.arrow.up")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 20)
+                                        .foregroundColor(.white)
+                                        .fontWeight(.light)
+                                }
                                 Spacer()
                             }.frame(maxWidth: .infinity)
                                 .padding(EdgeInsets(top: 0, leading: 30, bottom: 0, trailing: 0))
